@@ -1,5 +1,3 @@
 modo=produccion
 nivel_log=info
 cache=activada
-experimento_1=activo
-experimento_2=activo
