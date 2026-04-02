@@ -1,0 +1,18 @@
+df49301 (HEAD -> main) Revert "activar modo debug (QUITAR)"
+5a536f3 añadir límite conexiones
+155a231 activar modo debug (QUITAR)
+f2e5bf6 activar cache
+08e75b3 config inicial para producción
+6be2644 (origin/main, origin/HEAD) add deadline
+0790529 Initial commit
+
+===
+
+modo=produccion
+nivel_log=info
+cache=activada
+
+===
+
+Este método (revert) es más seguro que reset porque no tocas el historial. Sólamente estás creando un commit nuevo idéntico al estado de
+uno anterior. Esto evita que subas al repo un historial erroneo

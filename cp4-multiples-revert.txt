@@ -1,0 +1,26 @@
+Comandos usados: 
+
+git revert --no-commit 025922d
+git revert --no-commit ccbf816
+
+también podríamos haber usado --no-commit HEAD, etc
+
+===
+
+a792ae0 (HEAD -> main) revertir experimentos 1 y 2
+025922d activar experimento 2
+ccbf816 activar experimento 1
+538b232 Revert "cambiar de modo log a modo debug (QUITAR)"
+b919f96 cambiar de modo log a modo debug (QUITAR)
+df49301 Revert "activar modo debug (QUITAR)"
+5a536f3 añadir límite conexiones
+155a231 activar modo debug (QUITAR)
+f2e5bf6 activar cache
+08e75b3 config inicial para producción
+6be2644 (origin/main, origin/HEAD) add deadline
+0790529 Initial commit
+
+===
+
+Puede ser útil combinar el marcha atrás de varios commits en un sólo commit. En este ejemplo, lo hemos hecho porque los cambios de los commit que
+hemos revertido eran muy parecidos y del mismo tipo, además de estar cambiados en el mismo archivo. 

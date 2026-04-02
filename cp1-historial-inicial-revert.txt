@@ -1,0 +1,14 @@
+5a536f3 (HEAD -> main) añadir límite conexiones
+155a231 activar modo debug (QUITAR)
+f2e5bf6 activar cache
+08e75b3 config inicial para producción
+6be2644 (origin/main, origin/HEAD) add deadline
+0790529 Initial commit
+
+===
+
+modo=produccion
+nivel_log=info
+cache=activada
+modo=debug
+limite_conexiones=100

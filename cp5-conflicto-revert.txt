@@ -1,0 +1,7 @@
+
+
+===
+
+Este conflicto se resuelve como cualquier otro: entrando en el archivo donde se haya causado un conflicto, borando los marcadores
+de conflicto (<<<<<<<<, ...), y guardando el archivo en el estado deseado. Después hacemos git add y git revert --continue, o 
+git revert --abort
